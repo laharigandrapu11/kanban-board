@@ -79,9 +79,7 @@ Open [http://localhost:3000](http://localhost:3000). You can add tasks, drag the
 - `actions/` – Server actions (`getTasks`, `createTask`, `updateTaskStatus`, `updateTaskOrder`, `deleteTask`)
 - `lib/` – Supabase client (browser + server), shared types
 - `supabase/migrations/` – SQL schema and Realtime setup
-
-## Security
-
+testfix
 This app uses **Next.js 14.2.35**, which includes the December 2025 security patches for React Server Components.  
 `npm audit` may still report one high-severity advisory (Image Optimizer DoS). That issue only affects apps using `next/image` with `remotePatterns`; this app does not use that feature. To clear the audit entirely you can run `npm audit fix --force` (upgrades to Next 16 — test the app afterward).
 
